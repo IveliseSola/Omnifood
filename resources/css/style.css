@@ -266,7 +266,7 @@ header {
 }
 
 .works-step:last-of-type{
-	margin-bottom: 80px;
+	margin-bottom: 40px;
 }
 
 .works-step div {
@@ -274,19 +274,20 @@ header {
 	border: 2px solid #e67e22;
 	display: inline-block;
 	border-radius: 50%;
-	height: 50px;
-	width: 50px;
+	height: 40px;
+	width: 40px;
 	text-align: center;
 	padding: 5px;
-	font-size: 150%;
+	font-size: 110%;
 	float: left; 
 	margin-right: 25px;
 }
 
 .btn-app img{
-	height: 50px;
+	height: 150px;
 	width: auto;
-    margin-right: 20px; 
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 
