@@ -23,6 +23,14 @@ html{
     text-rendering: optimizeLegibility;
     }
 
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
 
 /*---------------------------*/
 /* Reusable Components */
@@ -233,25 +241,32 @@ header {
 /* How it works */
 /*---------------------------*/
 
-.steps-box {
-	margin-top: 30px;
+.section-steps{
+	background-color: #FFFFFF;
 }
 
 .steps-box:first-child{
     text-align: right;
     padding-right: 3px;
+    margin-top: 30px;
 }
 
 .steps-box:last-child{
     padding-left: 3px;
+    margin-top: 70px;
 }
 
 .app-screen{
 	width: 40%;
+	margin-right: 70px;
 }
 
-.work-step{
+.works-step{
 	margin-bottom: 50px;
+}
+
+.works-step:last-of-type{
+	margin-bottom: 80px;
 }
 
 .works-step div {
@@ -268,17 +283,10 @@ header {
 	margin-right: 25px;
 }
 
-.works-step p {
-
-}
-
-.clearfix {zoom: 1}
-.clearfix:after {
-    content: '.';
-    clear: both;
-    display: block;
-    height: 0;
-    visibility: hidden;
+.btn-app img{
+	height: 50px;
+	width: auto;
+    margin-right: 20px; 
 }
 
 
