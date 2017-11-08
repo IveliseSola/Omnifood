@@ -160,6 +160,49 @@ a:active {
     border: 1px solid #cf6d17;
 }
 
+//---------------------
+
+.btn-plan:link,
+.btn-plan:visited,{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-plan-full:link,
+.btn-plan-full:visited,{
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.btn-plan-ghost:link,
+.btn-plan-ghost:visited {
+    border: 1px solid #e67e22;
+    color: #e67e22;
+}
+
+.btn-plan:hover,
+.btn-plan:active, {
+    background-color: #cf6d17;
+}
+
+.btn-plan-full:hover,
+.btn-plan-full:active {
+    border: 1px solid #cf6d17;
+}
+
+.btn-plan-ghost:hover,
+.btn-plan-ghost:active {
+    border: 1px solid #cf6d17;
+    color: #fff;
+}
+
 
 /*---------------------------*/
 /* Header */
@@ -309,11 +352,11 @@ header {
 	border: 2px solid #e67e22;
 	display: inline-block;
 	border-radius: 50%;
-	height: 40px;
-	width: 40px;
+	height: 50px;
+	width: 50px;
 	text-align: center;
 	padding: 5px;
-	font-size: 110%;
+	font-size: 150%;
 	float: left; 
 	margin-right: 25px;
 }
@@ -326,7 +369,7 @@ header {
 .btn-app img{
 	height: 170px;
 	width: auto;
-    margin-right: 50px;
+    margin-right: 30px;
     margin-left: 50px;
 }
 
@@ -372,8 +415,58 @@ cite{
 }
 
 
+/*---------------------------*/
+/* Sign Up */
+/*---------------------------*/
 
+.section-plans{
+	background-color: #F9F9F9;
+}
 
+.plan-box{
+	background-color: #fff;
+	border-radius: 5px;
+	width: 90%;
+	margin-left: 5%;
+	box-shadow: 0 2px 2px #E6E6E6;
+}
 
+.plan-box div{
+	padding: 15px;
+	border-bottom: 1px solid #E6E6E6;
+}
+
+.plan-box div:last-child{
+	text-align: center;
+	border: 0;
+}
+
+.plan-price{
+	font-size: 250%;
+	margin-bottom: 10px;
+	font-weight: 100;
+	color: #e67e22;
+}
+
+.plan-price span{
+	font-size: 50%;
+	font-weight: 300;
+}
+
+.plan-price-meal{
+	font-size: 80%;
+}
+
+.plan-box ul{
+	list-style: none;
+}
+
+.plan-box ul li{
+	padding: 5px 0;
+}
+
+.plan-box ul li i{
+	font-size: 80%;
+}
 
 
