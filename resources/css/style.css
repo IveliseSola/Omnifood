@@ -367,10 +367,9 @@ header {
 }
 
 .btn-app img{
-	height: 170px;
-	width: auto;
-    margin-right: 30px;
-    margin-left: 50px;
+	height: 50px;
+	width: auto; 
+    margin: 30px 30px 0 60px; 
 }
 
 
