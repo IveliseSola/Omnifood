@@ -529,6 +529,7 @@ footer{
 .footer-nav{
 	list-style: none;
 	float: left;
+	font-size: 90%;
 }
 
 .social-links{
@@ -539,8 +540,16 @@ footer{
 .footer-nav li,
 .social-links li{
 	display: inline-block;
+}
+
+.social-links li {
+    margin-right: 30px;
+}
+
+.footer-nav li{
 	margin-right: 20px;
 }
+
 
 .footer-nav li:last-child,
 .social-links li:last-child {
@@ -558,8 +567,8 @@ footer{
 }
 
 
-.footer-nav li a:link,
-.footer-nav li a:visited {
+.footer-nav li a:hover,
+.footer-nav li a:active {
 	color: #CCCCCC;
 }
 
@@ -571,23 +580,23 @@ footer{
 .ion-social-facebook,
 .ion-social-twitter,
 .ion-social-instagram,
-.ion-social-googleplus{
+.ion-social-googleplus {
 	transition: color 0.2s;
 }
 
-.ion-social-facebook:hover{
+.ion-social-facebook:hover {
 	color: #3B5998;
 }
 
-.ion-social-twitter:hover{
+.ion-social-twitter:hover {
 	color: #1DA1F2;
 }
 
-.ion-social-instagram:hover{
-	color: #e4405f;
+.ion-social-instagram:hover {
+	color: #fbad50;
 }
 
-.ion-social-googleplus:hover{
+.ion-social-googleplus:hover {
 	color: #DB4437;
 }
 
@@ -595,7 +604,7 @@ footer{
 footer p {
 	color: #999999;
 	text-align: center;
-	font-size: 90%;
+	font-size: 80%;
 	margin-top: 30px;
 }
 
