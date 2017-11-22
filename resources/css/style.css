@@ -14,13 +14,15 @@
 	box-sizing: border-box;
 }
 
-html{
+html,
+body {
 	background-color: #fff;
     color: #7f7f7f; 
     font-family: lato, arial;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
     }
 
 .clearfix {zoom: 1}
@@ -210,7 +212,7 @@ input[type=submit]:active {
 /*---------------------------*/
 
 header {
-	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)), url(img/bg.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)), url(img/bg.jpg);
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center;
@@ -220,9 +222,9 @@ header {
 .hero-text-box {
 	position: absolute;
 	width: 1140px;
-	top: 50%;
+	top: 60%;
 	left: 50%;
-
+    transform: translate(-50%, -50%);
 }
 
 /*
@@ -356,7 +358,7 @@ header {
 .btn-app img{
 	height: 50px;
 	width: auto; 
-    margin: 30px 30px 0 60px; 
+    margin: 30px 20px 0 50px; 
 }
 
 
