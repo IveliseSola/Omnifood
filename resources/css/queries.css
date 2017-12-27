@@ -66,7 +66,32 @@
   .plan-box  { width: 96%;
   margin-right: 2%; }
 
-  .main-nav {display: none;}
+  .main-nav { display: none; }
+  
+  .main-nav {
+      float: left;
+      margin-top: 35px;
+      margin-left: 25px;
+    } 
+  .main-nav li { display: block;}
+  .main-nav li a:link,
+  .main-nav li a:visited { 
+      border: 0;
+      display: block;
+      padding: 10px 0;
+      font-size: 100%;
+  }
+
+  .sticky .main-nav { margin: 10px;}
+  
+  .sticky .main-nav li a:link,
+  .sticky .main-nav li a:visited { padding: 10px 0px; }
+
+  .mobile-nav-icon { display: inline-block;}
+
+  .sticky .mobile-nav-icon { margin-top: 10px; }
+
+  .sticky .mobile-nav-icon i { color: #7f7f7f; }
 
   .long-copy {
   	width: 100%; 
