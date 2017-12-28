@@ -96,6 +96,6 @@ $(document).ready(function () {
         // infoWindow: {
         //     content: '<p> Our San Francisco HQ </p>'
         //   }
-      });
+    });
 
 });
